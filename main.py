@@ -3,7 +3,7 @@ import asyncio
 import os
 
 # Токен вашего бота. Замените его на свой собственный токен.
-TOKEN = 'YOUR_BOT_TOKEN_HERE'
+TOKEN = TOKEN = os.environ.get('TOKEN')
 
 # ID канала, в который вы хотите отправить сообщение
 CHANNEL_ID = 1153046777952481420
